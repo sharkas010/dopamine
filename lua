@@ -1928,7 +1928,7 @@ pCreateThread(function()
 	local weaponOptionsSelectedMod = nil
 	
 	Dopamine.createMenu('dopamine', 'Dopamine')
-	Dopamine.setSubTitle('dopamine', 'd0pamine - final source')
+	Dopamine.setSubTitle('dopamine', 'ctrl exec')
 	Dopamine.createSubMenu('selfOptions', 'dopamine', 'Self Options')
 	Dopamine.createSubMenu('onlinePlayersOptions', 'dopamine', 'Online Players')
 	Dopamine.createSubMenu('visualOptions', 'dopamine', 'Visual Options')
