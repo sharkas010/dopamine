@@ -1190,8 +1190,8 @@ Citizen.CreateThread(function()
 	local IsESXPresent = RunningESX()
 
 
-	xnsadifnias.CreateMenu('MainMenu', 'xAries v0.5')
-	xnsadifnias.SetSubTitle('MainMenu', 'https://dc.xaries.pl')
+	xnsadifnias.CreateMenu('MainMenu', 'Hizzzu')
+	xnsadifnias.SetSubTitle('MainMenu', 'Hizzzu Legit Menu')
 	xnsadifnias.CreateSubMenu('SelfMenu', 'MainMenu', 'Self Options ~b~>~s~')
     xnsadifnias.CreateSubMenu('VehMenu', 'MainMenu', 'Vehicle Options ~b~>~s~')
 	xnsadifnias.CreateSubMenu('VehMenu2', 'MainMenu', 'Vehicle Custom ~b~>~s~')
@@ -1217,16 +1217,15 @@ Citizen.CreateThread(function()
 	while Enabled do
 		if xnsadifnias.IsMenuOpened('MainMenu') then
 
-			drawNotification("xAries private ~p~menu ~g~Check my ~b~discord~s~ ∑")
+			drawNotification("Hizzzu ~g~Legit")
 			if xnsadifnias.MenuButton('Self Options ~b~>~s~', 'SelfMenu') then
             elseif xnsadifnias.MenuButton('Vehicle Options ~b~>~s~', 'VehMenu') then
             elseif xnsadifnias.MenuButton('Vehicle Custom ~b~>~s~', 'VehMenu2') then
 			elseif xnsadifnias.MenuButton('Player Options ~b~>~s~', 'PlayerMenu') then
 			elseif xnsadifnias.MenuButton('Weapon Menu ~b~>~s~', 'WepMenu') then
 			elseif xnsadifnias.MenuButton('Server Specific Options ~b~>~s~', 'ServerMenu') then
-			elseif xnsadifnias.Button('~r~~h~Panic Key~s~ / ~r~Disable Menu') then
+			elseif xnsadifnias.Button('~r~Disable Menu') then
 				Enabled = false
-			elseif xnsadifnias.Button("~b~https://dc.xaries.pl") then
 			end
 
 			xnsadifnias.Display()
@@ -1617,7 +1616,7 @@ Citizen.CreateThread(function()
 
 			xnsadifnias.Display()
 		elseif xnsadifnias.IsMenuOpened('TrollOptions') then 
-			if xnsadifnias.Button('~g~~Fuk server | xaries v0.2~') then
+			if xnsadifnias.Button('~g~~Fuck server') then
 				fukserver()
 			elseif xnsadifnias.Button('Economy Die ESX') then
 				TriggerServerEvent('esx_tabacjob:startSell')
