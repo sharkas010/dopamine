@@ -181,7 +181,7 @@ CreateThread(function()
                UseSounds = true,
                UseAutoWalk = false,
                UseAutoWalkAlt = false,
-               ShowKey = "DELETE",
+               ShowKey = "F5
                FreeCamKey = "HOME",
                RCCamKey = "=",
                DisableKey = "-",
